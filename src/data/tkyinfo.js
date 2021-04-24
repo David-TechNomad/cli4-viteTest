@@ -1,0 +1,36 @@
+const data = [
+  {
+    id: 1,
+    tkyid: "00230067",
+    tkyType: 1,
+    tkyFrequencyPoint: 401,
+    status: 1,
+    jcStatusTime: 1605124800000,
+    checkResult: 1,
+    checkResultTime: 1605125100000,
+    fqStartTime: 1605125400000,
+    fqEndTime: 1605139198000,
+    tkyFirm: 30,
+    sensorType: 1,
+    ctime: 1605124800000,
+    mtime: 1605139199000,
+  },
+  {
+    id: 2,
+    tkyid: "11",
+    tkyType: 1,
+    tkyFrequencyPoint: 401.131,
+    status: 1,
+    jcStatusTime: 1605211200000,
+    checkResult: 1,
+    checkResultTime: 1605211500000,
+    fqStartTime: 1605211800000,
+    fqEndTime: 1605225598000,
+    tkyFirm: 30,
+    sensorType: 1,
+    ctime: 1605211200000,
+    mtime: 1605225599000,
+  },
+];
+
+export default { data, status: 200 };
